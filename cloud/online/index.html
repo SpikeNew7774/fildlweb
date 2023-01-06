@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../sc/style.css">
+    <title>Waiting for file</title>
+</head>
+<body>
+    <h3>File is on your way there. We are finding and sending it to you from our server.</h3>
+    <script>
+        function downl() {
+            window.open(localStorage.getItem("ValueLink"), "_self")
+            alert("File Downloaded!")
+        }
+        
+        setTimeout(downl, 8000)
+    </script>
+</body>
+</html>
