@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: rgb(102, 211, 175);
+}
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#down-file {
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 3px solid rgb(0, 0, 0);
+    transition-property: all;
+    transition: 300ms ease;
+}
+
+#down-file:active,
+#down-file:hover {
+    background-color: rgb(109, 102, 93);
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+}
